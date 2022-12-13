@@ -1,6 +1,6 @@
 HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 .mvnw
@@ -15,11 +15,13 @@ target/
 .springBeans
 .sts4-cache
 
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+*.sql
 
 ### NetBeans ###
 /nbproject/private/
@@ -30,6 +32,7 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
+/.mvn
 
 ### VS Code ###
 .vscode/
