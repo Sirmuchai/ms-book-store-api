@@ -9,7 +9,6 @@ import java.util.Objects;
 import java.util.Set;
 
 @Entity(name = "Book")
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
