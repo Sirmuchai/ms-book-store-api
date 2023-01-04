@@ -8,10 +8,14 @@ import java.util.List;
 import java.util.Set;
 
 import com.sity.model.Book;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity(name = "author")
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @PrimaryKeyJoinColumn(name = "personId")
 public class Author extends Person{
 
