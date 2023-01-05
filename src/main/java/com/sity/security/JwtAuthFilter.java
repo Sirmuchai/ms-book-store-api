@@ -21,7 +21,6 @@ import java.io.IOException;
 
 public class JwtAuthFilter extends OncePerRequestFilter {
     private final JwtUtils jwtUtils;
-
     private final UserDetailsService userDetailsService;
 
     @Override
@@ -31,7 +30,6 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             @NonNull FilterChain filterChain
     )
             throws ServletException, IOException {
-
         final String autHeader = request.getHeader("Authorization");
         final String jwt;
         final String userEmail;
@@ -60,5 +58,6 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             }
 
         }
+        filterChain.doFilter(request,response);
     }
 }
