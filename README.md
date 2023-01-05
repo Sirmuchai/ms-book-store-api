@@ -30,9 +30,9 @@ To get started with this project, you will need to have the following installed 
 
 ## To build and run the project, follow these steps:
 
-> Clone the repository: git clone git@github.com:Sirmuchai/ms-book-store-api.git
-> Navigate to the project directory: cd ms-crud-book-store
-> Build the project: mvn clean install
+> - Clone the repository: git clone git@github.com:Sirmuchai/ms-book-store-api.git
+> - Navigate to the project directory: cd ms-crud-book-store
+> - Build the project: mvn clean install
+> - Run the project: mvn spring-boot:run
 
-Run the project: mvn spring-boot:run
--> The application will be available at http://localhost:8000.
+* The application will be available at http://localhost:8000.
